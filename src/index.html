@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  </html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Situ Koffie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+
+  <body>
+    <div class="font-sans bg-stone-100">
+      <nav>
+        <!-- Header with logo and navigation -->
+        <header class="p-4 shadow-md bg-brown-700">
+          <div class="flex items-center justify-between max-w-6xl mx-auto">
+            
+            <!-- Logo (left side) -->
+            <div class="flex items-center space-x-2">
+              <h1 class="text-3xl font-semibold text-green-900 poppins-extrabold-italic">Situ-Koffie</h1>
+            </div>
+            
+            <!-- Navigation (center) -->
+            <div class="flex-1 space-x-6 text-center">
+              <a href="#home" class="font-semibold text-black hover:text-green-800">Home</a>
+              <a href="#menu" class="font-semibold text-black hover:text-green-800">Menu</a>
+              <a href="#about" class="font-semibold text-black hover:text-green-800">About</a>
+              <a href="#fornews" class="font-semibold text-black hover:text-green-800">For News</a>
+              <a href="#contact" class="font-semibold text-black hover:text-green-800">Contact</a>
+            </div>
+            
+            <!-- Find A Coffe (right side) -->
+            <div>
+              <a href="#location" class="inline-block px-6 py-1 text-xl font-semibold text-white bg-green-800 rounded-full hover:bg-green-600 fuzzy-bubbles-bold">Find A Coffe</a>
+            </div>
+            
+          </div>
+        </header>
+        
+        <!-- Hero Section -->
+        <section class="min-h-screen hero" style="background-image: url('./asset/webpage.gif')">
+          <div class="relative z-10 pt-24 text-center text-black">
+            <h2 class="mb-4 text-5xl font-bold fuzzy-bubbles-bold ">Welcome to Our Situ Koffie</h2>
+            <p class="text-lg font-semibold">The best place to enjoy your favorite coffee blends</p>
+            <a href="#menu" class="inline-block px-6 py-3 mt-6 text-xl font-semibold text-black transition bg-green-600 rounded-full hover:bg-green-800 poppins-extrabold-italic">Explore Our Menu</a>
+          </div>
+        </section>
+      </nav>
+    </div>
+    
+    <section id="menu" class="py-16 bg-white">
+      <div class="bg-pattern">
+        <div class="container px-4 py-8 mx-auto">
+          <h1 class="mb-2 text-4xl font-bold text-center text-green-700 fuzzy-bubbles-bold">
+            Menu
+          </h1>
+          <p class="mb-8 text-lg text-center text-black">
+            Nikmati kelezatan makanan & minuman yang Always Situ Koffie
+          </p>
+    
+          <!-- Slider Container -->
+          <div class="relative">
+            <div class="overflow-hidden">
+              <div class="flex transition-transform duration-300 ease-in-out" id="menuSlider">
+                <!-- 10 Gambar di sini -->
+                <div class="flex-shrink-0 p-4 w-60">
+                  <img alt="lychee Tea" class="w-full h-auto rounded-lg shadow-md" src="./asset/logo 1.jpeg" />
+                  <p class="mt-4 font-semibold text-center text-black">lychee Tea</p>
+                </div>
+                <div class="flex-shrink-0 p-4 w-60">
+                  <img alt="blue lychee" class="w-full h-auto rounded-lg shadow-md" src="./asset/logo 2.jpeg" />
+                  <p class="mt-4 font-semibold text-center text-black">blue lychee</p>
+                </div>
+                <div class="flex-shrink-0 p-4 w-60">
+                  <img alt="Mojito Green Apple" class="w-full h-auto rounded-lg shadow-md" src="./asset/logo 3.jpeg" />
+                  <p class="mt-4 font-semibold text-center text-black">Mojito Green Apple</p>
+                </div>
+                <div class="flex-shrink-0 p-4 w-60">
+                  <img alt="Vanilla Strawberry" class="w-full h-auto rounded-lg shadow-md" src="./asset/logo 4.jpeg" />
+                  <p class="mt-4 font-semibold text-center text-black">Vanilla Strawberry</p>
+                </div>
+                <div class="flex-shrink-0 p-4 w-60">
+                  <img alt="Matcha" class="w-full h-auto rounded-lg shadow-md" src="./asset/logo 5.jpeg" />
+                  <p class="mt-4 font-semibold text-center text-black">Matcha</p>
+                </div>
+                <div class="flex-shrink-0 p-4 w-60">
+                  <img alt="Tea Series" class="w-full h-auto rounded-lg shadow-md" src="./asset/logo 6.jpeg" />
+                  <p class="mt-4 font-semibold text-center text-black">Tea Series</p>
+                </div>
+                <div class="flex-shrink-0 p-4 w-60">
+                  <img alt="Onion Ring" class="w-full h-auto rounded-lg shadow-md" src="./asset/logo story 8.jpeg" />
+                  <p class="mt-4 font-semibold text-center text-black">Onion Ring</p>
+                </div>
+                <div class="flex-shrink-0 p-4 w-60">
+                  <img alt="Chicken Popcorn" class="w-full h-auto rounded-lg shadow-md" src="./asset/logo story 7.jpeg" />
+                  <p class="mt-4 font-semibold text-center text-black">Chicken Popcorn</p>
+                </div>
+                <div class="flex-shrink-0 p-4 w-60">
+                  <img alt="Waffel" class="w-full h-auto rounded-lg shadow-md" src="./asset/logo story 9.jpeg" />
+                  <p class="mt-4 font-semibold text-center text-black">Waffel</p>
+                </div>
+                <div class="flex-shrink-0 p-4 w-60">
+                  <img alt="Nasi Spesial" class="w-full h-auto rounded-lg shadow-md" src="./asset/logo story10.jpeg" />
+                  <p class="mt-4 font-semibold text-center text-black">Nasi Spesial</p>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Slider Controls -->
+            <button class="absolute left-0 px-4 py-2 text-white transform -translate-y-1/2 bg-green-700 rounded-full top-1/2" id="prevBtn">
+              &#10094;
+            </button>
+            <button class="absolute right-0 px-4 py-2 text-white transform -translate-y-1/2 bg-green-700 rounded-full top-1/2" id="nextBtn">
+              &#10095;
+            </button>
+          </div>
+    
+          <div class="mt-8 text-center">
+            <button class="px-4 py-2 text-white bg-green-800 rounded-full hover:bg-green-600">
+              Lihat Semua Menu
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Menu about -->
+    <section id="about" class="relative w-full py-16 bg-white">
+      <div class="container px-4 mx-auto">
+        <!-- Section Content -->
+        <div class="flex flex-wrap">
+          <!-- Left Column -->
+          <div class="w-full px-4 mb-8 md:w-1/2 md:mb-0">
+            <h1 class="mb-4 text-3xl font-semibold leading-tight text-gray-900">
+              Dibuat dengan penuh semangat, diseduh dengan presisi..
+            </h1>
+            <p class="mb-6 text-lg text-gray-700">
+              Di Situ Coffee, kami percaya bahwa kopi bukan hanya sekadar minuman, tetapi sebuah pengalaman yang dimulai dari proses pembuatan yang penuh perhatian. Setiap biji kopi yang kami pilih telah melalui seleksi ketat untuk memastikan kualitas terbaik. Proses pemanggangan yang sempurna, penggilingan yang presisi, dan teknik penyeduhan yang hati-hati, semuanya dirancang untuk menciptakan rasa yang tidak hanya nikmat, tetapi juga membawa kenyamanan dalam setiap tegukan. Bagi kami, membuat kopi adalah sebuah seni yang melibatkan kesabaran, dedikasi, dan cinta dalam setiap langkahnya. 
+              <p class="mb-6 text-lg text-gray-700"> Kami mengundang Anda untuk menikmati secangkir kopi yang lebih dari sekadar minuman, tetapi sebuah cerita yang kami sajikan dengan penuh perhatian. Di Situ Coffee, kami tidak hanya menyeduh kopi, kami menciptakan momen yang akan menemani Anda menjalani hari dengan semangat baru. Setiap cangkir kami adalah hasil dari dedikasi kami untuk memberikan pengalaman kopi yang istimewa dan penuh makna. 
+            </p>
+            <a href="/about/" class="inline-block px-6 py-2 text-sm font-semibold text-white bg-green-800 rounded-lg shadow hover:bg-green-600">
+              Lihat Selengkapnya
+            </a>
+          </div>
+          
+          <!-- Right Column with Image Carousel -->
+          <div class="w-full px-4 md:w-1/2">
+            <div class="flex justify-center">
+              <div class="relative w-full h-auto max-w-full">
+                <img id="carousel-image" src="./asset/layyyyo.jpeg" alt="Point Coffee Image" class="h-auto transition-all duration-500 ease-in-out rounded-lg shadow-lg max-w-3/4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+           <!-- Menu Fornews -->
+            <section id="fornews" class="py-16 bg-white">
+              <body class="bg-gray-50">
+                <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                  <div class="text-center animate__animated animate__fadeIn">
+                    <h1 class="text-5xl font-bold text-green-700 animate__animated animate__fadeIn animate__delay-1s fuzzy-bubbles-bold">
+                      ForeNews
+                    </h1>
+                    <p class="mt-2 text-lg text-gray-600 animate__animated animate__fadeIn animate__delay-1.5s">
+                      Dapatkan pembaruan terbaru dan lebih banyak pengalaman kopi dari kami!
+                    </p>
+                  </div>
+                  <div class="grid gap-8 mt-12 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
+                    <!-- Card 1 -->
+                    <div class="overflow-hidden transition duration-300 ease-in-out transform bg-white rounded-lg shadow-lg hover:scale-105 animate__animated animate__fadeIn animate__delay-2s">
+                      <img alt="Two cups of coffee on a table" class="object-cover w-full h-48 transition-transform duration-300 ease-in-out cursor-pointer hover:scale-110" height="400" src="./asset/logo story.jpeg" width="600"/>
+                      <div class="p-6">
+                        <h2 class="text-lg font-semibold text-gray-800 animate__animated animate__fadeIn animate__delay-2.5s">
+                          Sejarah Situ Koffie
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-600 animate__animated animate__fadeIn animate__delay-3s">
+                          Sebuah romansa di situ Koffie, Aku dengan kopiku, kamu dengan ocean Blue, perbedaan rasa hingga berbagi rasa, lalu dari situ kita menjadi satu
+                        </p>
+                        <p class="mt-4 text-sm text-gray-500">
+                          26 Mei 2023
+                        </p>
+                      </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="overflow-hidden transition duration-300 ease-in-out transform bg-white rounded-lg shadow-lg hover:scale-105 animate__animated animate__fadeIn animate__delay-2s">
+                      <img alt="Fore Coffee shop front" class="object-cover w-full h-48 transition-transform duration-300 ease-in-out cursor-pointer hover:scale-110" height="400" src="./asset/logo story 2.jpeg" width="600"/>
+                      <div class="p-6">
+                        <h2 class="text-lg font-semibold text-gray-800 animate__animated animate__fadeIn animate__delay-2.5s">
+                          Boost Energi Pagi
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-600 animate__animated animate__fadeIn animate__delay-3s">
+                          Yuk, mulai hari dengan semangat baru dan nikmati promo spesial kopi yang ramah di kantong!
+                        </p>
+                        <p class="mt-4 text-sm text-gray-500">
+                          November 30, 2024
+                        </p>
+                      </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="overflow-hidden transition duration-300 ease-in-out transform bg-white rounded-lg shadow-lg hover:scale-105 animate__animated animate__fadeIn animate__delay-2s">
+                      <img alt="Barista Mikael Jasin at a coffee competition" class="object-cover w-full h-48 transition-transform duration-300 ease-in-out cursor-pointer hover:scale-110" height="400" src="./asset/logo story 3.jpeg" width="600"/>
+                      <div class="p-6">
+                        <h2 class="text-lg font-semibold text-gray-800 animate__animated animate__fadeIn animate__delay-2.5s">
+                          Situ Awak Open Mic
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-600 animate__animated animate__fadeIn animate__delay-3s">
+                          Bersiap siaplah untuk hari senin, karena acara komedi berdiri hadir menemani lusuhnya hari beratmu. Kita akan ada kedatangan seseorang yang luar biasa yaitu Kamu!
+                        </p>
+                        <p class="mt-4 text-sm text-gray-500">
+                          Oktober 26, 2024
+                        </p>
+                      </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="overflow-hidden transition duration-300 ease-in-out transform bg-white rounded-lg shadow-lg hover:scale-105 animate__animated animate__fadeIn animate__delay-2s">
+                      <img alt="Person holding a cup of Fore Coffee" class="object-cover w-full h-48 transition-transform duration-300 ease-in-out cursor-pointer hover:scale-110" height="400" src="./asset/logo story 4.jpeg" width="600"/>
+                      <div class="p-6">
+                        <h2 class="text-lg font-semibold text-gray-800 animate__animated animate__fadeIn animate__delay-2.5s">
+                          Merupa di Situ Koffie
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-600 animate__animated animate__fadeIn animate__delay-3s">
+                          Yuk, Gabung di Merupa di Situ Koffie, cuma 55k, kamu dapat sketch paper A3, art supply lengkap, plus kopi susu Situ Koffie. Selesai melukis, karyamu bisa dipamerkan di sini juga.
+                        </p>
+                        <p class="mt-4 text-sm text-gray-500">
+                          November 1, 2024
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mt-12 text-center animate__animated animate__fadeIn animate__delay-3.5s">
+                    <button class="px-6 py-3 text-lg text-white bg-green-800 rounded-full hover:bg-green-600">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+              </body>
+            </section>
+            
+     <!-- Contact Section -->
+<section id="contact" class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="mb-8 text-3xl font-semibold text-green-900 fuzzy-bubbles-bold">Contact Us </h2>
+   
+    </p>
+    <form class="max-w-xl p-8 mx-auto space-y-6 bg-gray-300 rounded-md shadow-lg">
+      <!-- Name Input -->
+      <div class="flex flex-col space-y-2">
+        
+        <input
+          type="text"
+          id="name"
+          placeholder="Your Name"
+          class="w-full p-3 text-black bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-800"
+        />
+      </div>
+
+      <!-- Email Input -->
+      <div class="flex flex-col space-y-2">
+        
+        <input
+          type="email"
+          id="email"
+          placeholder="Your Email"
+          class="w-full p-3 text-black bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-800"
+        />
+      </div>
+
+      <!-- Drink Order -->
+      <div class="flex flex-col space-y-2">
+        
+        <select
+          id="drink"
+          class="w-full p-3 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-800"
+        >
+          <option value="">Select a Drink</option>
+          <option value="lycheeTea">lycheeTea</option>
+          <option value="Blue lychee">Blue lychee</option>
+          <option value="Mojito Green apple">Mojito Green apple</option>
+          <option value="Vanilla Strawberry">Vanilla Strawberry</option>
+          <option value="Matcha">Matcha</option>
+        </select>
+      </div>
+
+      <!-- Food Order -->
+      <div class="flex flex-col space-y-2">
+        
+        <select
+          id="food"
+          class="w-full p-3 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-800"
+        >
+          <option value="">Select a Food Item</option>
+          <option value="Snack Onion Ring">Snack Onion Ring</option>
+          <option value="Chicken Popcorn">Chicken Popcorn</option>
+          <option value="Spesial Waffel Series">Spesial Waffel Series</option>
+          <option value="Nasi Spesial">Nasi Spesial</option>
+          <option value="salad">Salad</option>
+        </select>
+      </div>
+
+      <!-- Special Instructions (Optional) -->
+      <div class="flex flex-col space-y-2">
+       
+        <textarea
+          id="instructions"
+          placeholder="Enter any special instructions (e.g., allergies, preferences)"
+          rows="3"
+          class="w-full p-3 text-black bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-800"
+        ></textarea>
+      </div>
+
+      <!-- Submit Button -->
+      <button
+        type="submit"
+        class="w-full p-3 text-white transition-all duration-300 bg-green-800 rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+      >
+        Submit Order
+      </button>
+    </form>
+  </div>
+</section>
+
+     <!-- Location Section -->
+  <section id="location" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="mb-6 text-4xl font-bold text-green-700 fuzzy-bubbles-bold">Our Location</h2>
+      <p class="mb-12 text-lg text-black">We are located in the heart of the city, offering you the best coffee and cozy environment.</p>
+      
+      <!-- Location Details (Image + Text) -->
+      <div class="flex items-center justify-center space-x-8">
+        <!-- Left: Image -->
+        <div class="w-1/2">
+          <img src="./asset/locationn.png" alt="Our Coffee Shop Location" class="w-full h-auto rounded-lg shadow-lg" />
+        </div>
+
+        <!-- Right: Address and Details -->
+        <div class="w-1/2 text-left">
+          <h3 class="mb-4 text-2xl font-semibold text-gray-800">Find Us At</h3>
+          <p class="mb-4 text-lg text-gray-600">Padang, Situ Coffie</p>
+          <p class="mb-4 text-lg text-gray-600">Buka Setiap Hari: 8:00 AM - 9:00 PM</p>
+          <a href="https://www.google.com/maps/place/Situ+Koffie/@-0.9235946,100.3572677,16z/data=!4m6!3m5!1s0x2fd4b9096f2c73c7:0x2688cf5dfda1fb40!8m2!3d-0.9251501!4d100.3568064!16s%2Fg%2F11n7376w8k?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" class="inline-block px-6 py-3 text-white transition bg-green-800 rounded-full hover:bg-green-600">Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer Section -->
+<footer class="py-12 text-white bg-green-800">
+  <div class="max-w-6xl mx-auto text-center">
+    <p class="mb-4 text-lg">&copy; 2024 Situ Koffie. By Arief Rahman.</p>
+    <!-- Contact Info -->
+    <p class="text-sm">Email: minumansegar@situkoffie.com
+
+      <script src="Slide.js">
+</script>
+  </body>
+</html>
